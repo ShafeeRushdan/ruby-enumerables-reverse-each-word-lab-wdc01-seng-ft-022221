@@ -10,7 +10,7 @@ word.split
 word.each do |new|
 
 
-"{#new}".reverse 
+new.reverse 
 
 
 end 
