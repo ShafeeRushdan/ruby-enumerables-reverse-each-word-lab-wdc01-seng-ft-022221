@@ -11,7 +11,6 @@ word_array = word.split
 word_array.collect
 
 
-word_array.reverse 
 
 
 end 
