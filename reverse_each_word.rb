@@ -6,11 +6,12 @@ binding.pry
 word.split do |new|
 
 
+word_array = word.split
 
-new.collect
+word_array.collect
 
 
-new.reverse 
+word_array.reverse 
 
 
 end 
