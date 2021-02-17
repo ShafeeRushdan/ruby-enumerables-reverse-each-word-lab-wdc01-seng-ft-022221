@@ -2,12 +2,15 @@
 
 def reverse_each_word (word)
 #binding.pry 
+
 word.split 
 
-do |new|
 
 
-"{#new.split}".reverse 
+word.each do |new|
+
+
+"{#new}".reverse 
 
 
 end 
