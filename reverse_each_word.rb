@@ -7,7 +7,7 @@ word.split
 
 
 
-word.map do |new|
+word.collect do |new|
 
 
 new.reverse 
