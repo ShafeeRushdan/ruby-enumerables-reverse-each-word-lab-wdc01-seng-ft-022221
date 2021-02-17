@@ -3,11 +3,11 @@
 def reverse_each_word (word)
 #binding.pry 
 
-word.split 
+word.split do |new|
 
 
 
-word.collect do |new|
+new.collect
 
 
 new.reverse 
