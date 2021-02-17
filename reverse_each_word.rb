@@ -9,7 +9,7 @@ word_array = word.split
 
 reverse_array = word_array.collect{|str| str.reverse}
   
-
+reverse_array.join(" ")
 
 
 
