@@ -7,11 +7,11 @@ def reverse_each_word (word)
 
 word_array = word.split
 
-word_array.collect do |str|
+reverse_array = word_array.collect d |str|
    
    str.reverse 
   
-end
+
 
 
 
